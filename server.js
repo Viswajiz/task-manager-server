@@ -1,5 +1,3 @@
-console.log("🔥 SERVER.JS FILE IS RUNNING 🔥");
-
 require("dotenv").config();
 
 const express = require("express");
@@ -27,6 +25,8 @@ mongoose
     console.error(err);
     process.exit(1);
   });
+
+console.log("🔥 SERVER.JS FILE IS RUNNING 🔥");
 
 // Start server
 app.get("/", (req, res) => {
