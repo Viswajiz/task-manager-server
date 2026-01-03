@@ -1,3 +1,5 @@
+console.log("🔥 SERVER.JS FILE IS RUNNING 🔥");
+
 require("dotenv").config();
 
 const express = require("express");
